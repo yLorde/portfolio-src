@@ -7,7 +7,6 @@ export function App() {
   const [lang, setLang] = useState<Lang>("pt");
   const c = langs[lang];
 
-
   return (
     <div className="min-h-screen bg-background text-zinc-200 font-sans">
       {/* Nav */}

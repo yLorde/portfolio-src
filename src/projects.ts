@@ -2,6 +2,16 @@ import type { Project } from "./types/project";
 
 export const projects: Project[] = [
     {
+        name: "Easy API Consumer",
+        tag: "Node.js · API",
+        descPt: "Node Module para construir consumidores de APIs de forma simples.",
+        descEn: "Node Module to build API consumers in a simple way.",
+        techs: ["TypeScript", "Node.js"],
+        repo: "https://github.com/Open-yLorde/easy-api-consumer",
+        initials: "EA",
+        hue: "from-cyan-500/20 via-cyan-500/5 to-transparent",
+    },
+    {
         name: "VShelf — Desktop App",
         tag: "Electron · Rust",
         descPt:
@@ -34,7 +44,7 @@ export const projects: Project[] = [
             "First iteration of the VShelf backend written in Rust with Actix Web, focused on throughput and low latency.",
         techs: ["Rust", "Actix", "PostgreSQL", "Docker"],
         repo: "https://github.com/VShelf/flint_api",
-        initials: "FX",
+        initials: "OB",
         hue: "from-orange-500/20 via-orange-500/5 to-transparent",
     },
     {
@@ -46,7 +56,7 @@ export const projects: Project[] = [
             "Collection of practical web development snippets and solutions, published as a public site.",
         techs: ["JavaScript", "HTML", "CSS"],
         repo: "https://github.com/VShelf/js-scripts.vshelf.app",
-        live: "https://js-scripts.vshelf.app/",
+        // live: "https://js-scripts.vshelf.app/",
         initials: "JS",
         hue: "from-yellow-500/20 via-yellow-500/5 to-transparent",
     },
@@ -82,7 +92,7 @@ export const projects: Project[] = [
         descEn:
             "Node.js project to look up product information from barcodes (EAN/UPC).",
         techs: ["JavaScript", "Axios", "Cheerio"],
-        repo: "https://github.com/VShelf",
+        repo: "https://github.com/Open-yLorde/barcode-finder",
         initials: "BC",
         hue: "from-emerald-500/20 via-emerald-500/5 to-transparent",
     },
@@ -97,5 +107,15 @@ export const projects: Project[] = [
         repo: "https://github.com/Open-yLorde/favorite-gender",
         initials: "FG",
         hue: "from-fuchsia-500/20 via-fuchsia-500/5 to-transparent",
+    },
+    {
+        name: "Discord Emoji Downloader",
+        tag: "Node.js · JSON · Python",
+        descPt: "Função que faz um web scraping de emojis do Discord e os salva em um arquivo JSON.",
+        descEn: "Function that scrapes Discord emojis and saves them to a JSON file.",
+        techs: ["Node.js", "Python"],
+        repo: "https://github.com/Open-yLorde/discord-emoji-downloader",
+        initials: "DE",
+        hue: "from-indigo-500/20 via-indigo-500/5 to-transparent",
     },
 ];
