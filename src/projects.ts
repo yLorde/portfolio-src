@@ -19,7 +19,7 @@ export const projects: Project[] = [
         descEn:
             "Desktop application for managing media libraries (movies, series, books) with automatic metadata fetching and local storage.",
         techs: ["TypeScript", "React", "Electron", "Rust", "SQLite"],
-        repo: "https://github.com/VShelf",
+        repo: "https://github.com/Open-yLorde/app-dev",
         initials: "VS",
         hue: "from-teal-500/20 via-teal-500/5 to-transparent",
     },
@@ -31,7 +31,7 @@ export const projects: Project[] = [
         descEn:
             "Official website and web version of the VShelf manager, with sync and responsive UI.",
         techs: ["TypeScript", "React", "TailwindCSS", "PostgreSQL"],
-        repo: "https://github.com/VShelf",
+        repo: "https://github.com/Open-yLorde/vshelf-website-dev",
         initials: "VW",
         hue: "from-sky-500/20 via-sky-500/5 to-transparent",
     },
