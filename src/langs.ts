@@ -6,7 +6,7 @@ export const langs = {
         heroSub:
             "Desenvolvedor Full Stack construindo sistemas robustos com Rust e TypeScript.",
         heroBody:
-            "Foco em arquitetura de software, performance e ferramentas de código aberto. Atualmente desenvolvendo o ecossistema VShelf — uma suíte de aplicações para gerenciamento de bibliotecas de mídia.",
+            "Foco em arquitetura de software, performance e ferramentas de código aberto. Atualmente desenvolvendo o ecossistema DSA Digital — uma suíte de aplicações para gerenciamento.",
         ctaProjects: "Ver projetos",
         ctaContact: "Entrar em contato",
         stackTitle: "Stack Técnica",
@@ -33,7 +33,7 @@ export const langs = {
         heroSub:
             "Full Stack Developer building robust systems with Rust and TypeScript.",
         heroBody:
-            "Focused on software architecture, performance and open source tooling. Currently building the VShelf ecosystem — a suite of apps for managing media libraries.",
+            "Focused on software architecture, performance and open source tooling. Currently building the DSA Digital ecosystem — a suite of apps for managing.",
         ctaProjects: "See projects",
         ctaContact: "Get in touch",
         stackTitle: "Technical Stack",
