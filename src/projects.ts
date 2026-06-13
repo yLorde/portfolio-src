@@ -12,6 +12,16 @@ export const projects: Project[] = [
         hue: "from-cyan-500/20 via-cyan-500/5 to-transparent",
     },
     {
+        name: "Sedna Worker",
+        tag: "Rust · Tokio",
+        descPt: "Worker para heartbeat e cálculo de status de servidores.",
+        descEn: "Worker for heartbeat and server status calculation.",
+        techs: ["Rust", "Tokio", "Docker", "PostgreSQL", "Docker Compose"],
+        repo: "https://github.com/Open-yLorde/sedna-worker",
+        initials: "SW",
+        hue: "from-orange-500/20 via-orange-500/5 to-transparent",
+    },
+    {
         name: "VShelf — Desktop App",
         tag: "Electron · Rust",
         descPt:
